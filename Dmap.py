@@ -12,11 +12,15 @@ wordlist = [
 if config.initClear == True:
     os.system("clear")
 
-
-os.system("figlet Dmap")
-print("by voidh7")
-print(f"vertion:{vertion}")
-print("-----------------")
+if config.banner == True:
+    os.system("figlet Dmap")
+    print("by voidh7")
+    print(f"vertion:{vertion}")
+    print("-----------------")
+else:
+    print("DMAP by voidh7")
+    print(f"vertion {config.vertion}")
+    print("-----------------")
 
 
 
