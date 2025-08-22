@@ -35,7 +35,11 @@
 Create a file named `config.py`:
 
 verbose = False   # True = display all HTTP responses
+
 initClear = False # True = clear the terminal at startup
+
+banner = True # Change to false in case you want to download figlet
+
 
 ---
 
