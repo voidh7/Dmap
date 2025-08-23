@@ -40,7 +40,9 @@ initClear = False # True = clear the terminal at startup
 
 banner = True # Change to false in case you want to download figlet
 
+outputFile = True # If true, all the program’s positive output will be saved in a .txt file
 
+timeout = 3# limit time for wensite response Change to 3 for a faster scan (you might miss some endpoints)
 ---
 
 ## 🔹 Usage
@@ -49,8 +51,8 @@ banner = True # Change to false in case you want to download figlet
 2. Enter the target URL:  
    what is the url: http://example.com
 3. The tool will check each path from the wordlist and display:  
-   - `[URL] [open status code 200]` → Accessible  
-   - `[;-;] error` → Inaccessible (or verbose details if enabled)
+   - `[URL] [open status code 200] [OK` → Accessible  
+   - `[URL] [not found]` → Inaccessible (or verbose details if enabled)
 
 ---
 
