@@ -32,7 +32,7 @@
 ---
 
 ## 🔹 Configuration
-Create a file named `config.py`:
+open your `config.py`:
 
 verbose = False   # True = display all HTTP responses
 
