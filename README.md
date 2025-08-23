@@ -1,6 +1,6 @@
 # 🗺️ Dmap - Directory Mapper
 
-**Version:** 1.0.0 beta  
+**Version:** 1.1.1
 **Author:** voidh7  
 
 ---
