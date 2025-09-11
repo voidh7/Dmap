@@ -1,6 +1,7 @@
 import requests
 import os
 import config                                                                           import wl
+import sys
 
 allowed_status = [200, 201, 202, 204, 301, 302, 307, 308]                               
 status_desc = {
@@ -29,7 +30,7 @@ else:
     print(f"vertion {config.vertion}")
     print("-----------------")
 
-url = input("what is the url:")
+url = sys.argv[1]
 
 if config.outputFile:
     outputFilename = input("output fileName:")
