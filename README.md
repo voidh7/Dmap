@@ -81,8 +81,9 @@ timeout = 3  limit time for wensite response Change to 3 for a faster scan (you 
 ---
 
 ## 🔹 Example Output
-$ python Dmap.py
-what is the url: http://example.com
+$ python Dmap.py http://example.com
+
+
 http://example.com/admin [open status code 200]
 [;-;] error
 http://example.com/login [open status code 200]
